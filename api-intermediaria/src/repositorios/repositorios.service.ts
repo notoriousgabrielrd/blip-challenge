@@ -26,10 +26,10 @@ export class RepositoriosService {
       return { status: 200, data: responseParaChatBot };
 
     } catch (e) {
-      console.error("ERROR> ", e);
+      console.error("ERROR> ", e.message);
       return {
         status: 500,
-        message: 'Erro ao buscar repositórios',
+        message: 'Desculpe! 😞 Algo inesperado ocorreu e não consigo te atender no momento.Por favor, tente novamente mais tarde.',
         message_alert: e.message,
       };
     }
