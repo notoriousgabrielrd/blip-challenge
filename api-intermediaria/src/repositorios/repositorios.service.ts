@@ -21,7 +21,10 @@ export class RepositoriosService {
 
     } catch (e) {
       console.log("ERROR> ", e);
-      return {status: 500, message: "Erro ao buscar repositórios"};
+      return {
+        status: 500, 
+        message: "Erro ao buscar repositórios", 
+        message_alert: e.message};
     }
   }
 }
