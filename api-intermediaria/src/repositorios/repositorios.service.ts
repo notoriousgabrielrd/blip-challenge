@@ -6,6 +6,9 @@ export class RepositoriosService {
   async pegaRepositoriosCSharp() {
     try {
       const url = 'https://api.github.com/users/takenet/repos?sort=created&direction=asc';
+      const headers = {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`
+      }
       const response = await axios.get(url);
       console.log("RESPONSE.DATA> ", response.data);
 
