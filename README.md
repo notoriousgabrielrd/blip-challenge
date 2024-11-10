@@ -98,3 +98,9 @@ Retorno esperado:
     ]
 }
 ```
+
+
+### Feito com ❤️ por [Gabriel Rodrigues](https://github.com/notoriousgabrielrd).
+
+Se precisar de mais alguma coisa, estou à disposição!
+email: grddourado@gmail.com
