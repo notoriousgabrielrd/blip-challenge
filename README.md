@@ -94,11 +94,20 @@ Retorno esperado:
          "imagem":"https://avatars.githubusercontent.com/u/4369522?v=4",
          "titulo":"takenet/Takenet.ScoreSystem",
          "subtitulo":"Takenet score system"
+      },
+      {
+         "imagem":"https://avatars.githubusercontent.com/u/4369522?v=4",
+         "titulo":"takenet/ServiceStack.Text",
+         "subtitulo":".NET's fastest JSON, JSV and CSV Text Serializers "
       }
-    ]
+   ]
 }
 ```
+## Documentação da API
 
+A documentação da API está disponível em: https://blip-challenge-1.onrender.com/api-docs
+
+*Lembre-se de que para autorizar a requisição você precisa ter o token de acesso do GitHub.*
 
 ### Feito com ❤️ por [Gabriel Rodrigues](https://github.com/notoriousgabrielrd).
 
