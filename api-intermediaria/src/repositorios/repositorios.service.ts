@@ -5,7 +5,7 @@ import axios from 'axios';
 export class RepositoriosService {
   async pegaRepositoriosCSharp() {
     try {
-      const url = 'https://api.github.com/orgs/takenet/repos?per_page=5&sort=created&direction=asc';
+      const url = 'https://api.github.com/orgs/takenet/repos?per_page=6&sort=created&direction=asc';
       const headers = {
         Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
         'User-Agent': 'NestJS-App',
